@@ -1,6 +1,5 @@
 package gr.publicsoft.springbootcrud.config;
 
-import gr.publicsoft.springbootcrud.repository.PersonRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,11 +16,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.ArrayList;
 
-import static javax.management.Query.or;
-
-import static springfox.documentation.builders.PathSelectors.ant;
-import static springfox.documentation.builders.PathSelectors.any;
-import static springfox.documentation.builders.RequestHandlerSelectors.basePackage;
 
 @Configuration
 @EnableSwagger2
