@@ -10,5 +10,5 @@ Run app with mvn clean install,mvn package,???...The server listens to http://lo
 
 ## Other features
 Security configuration for the server.....help!
-Swagger configuration in order to provide information about the Api. Listen to http://localhost:8080/swagger-ui.html
+Swagger configuration in order to provide information about the Api. Listen to http://localhost:8080/swagger-ui.html .
 
